@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional global styles (App.css is imported by App.jsx) */
+html, body, #root { height: 100%; }

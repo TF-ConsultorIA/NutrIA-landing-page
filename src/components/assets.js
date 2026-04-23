@@ -1,0 +1,10 @@
+// Local asset paths (SVG wrappers in public/assets)
+export const imgHero = '/assets/hero.svg'
+export const imgTeam = '/assets/team.svg'
+export const imgAv1 = '/assets/av1.svg'
+export const imgAv2 = '/assets/av2.svg'
+export const imgAv3 = '/assets/av3.svg'
+export const imgAv4 = '/assets/av4.svg'
+export const imgLogo = '/assets/logo.svg'
+export const imgCheck = '/assets/check.svg'
+export const imgQuote = '/assets/quote.svg'
