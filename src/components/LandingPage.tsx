@@ -6,6 +6,7 @@ import { Hero }                from './HeroSection';
 import { AboutSection }        from './AboutSection';
 import { TestimonialsSection } from './TestimonialsSection';
 import { PricingSection }      from './PricingSection';
+import { FooterSection }       from './FooterSection';
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
@@ -34,6 +35,7 @@ export default function LandingPage() {
       <AboutSection />
       <TestimonialsSection />
       <PricingSection />
+      <FooterSection scrollToTop={scrollToTop} scrollTo={scrollTo} />
     </div>
   );
 }

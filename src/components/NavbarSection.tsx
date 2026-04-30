@@ -75,7 +75,7 @@ export function Navbar({
                   isActive ? 'opacity-100' : 'opacity-75 hover:opacity-100'
                 }`}
                 style={{
-                  fontFamily: isActive ? "'Alexandria', sans-serif" : "'Alexandria:Regular', sans-serif",
+                  fontFamily: isActive ? "'Alexandria', sans-serif" : "'Alexandria', sans-serif",
                   fontWeight: isActive ? 600 : 400,
                   fontSize: 15,
                 }}
@@ -99,13 +99,13 @@ export function Navbar({
           {/* Desktop buttons */}
           <button
             className="hidden md:flex items-center px-5 py-2.5 rounded-[14px] border border-[rgba(255,255,255,0.55)] text-white hover:bg-[rgba(255,255,255,0.12)] transition-colors cursor-pointer whitespace-nowrap"
-            style={{ fontFamily: "'Alexandria:Medium', sans-serif", fontWeight: 500, fontSize: 15 }}
+            style={{ fontFamily: "'Alexandria', sans-serif", fontWeight: 500, fontSize: 15 }}
           >
             Iniciar Sesión
           </button>
           <button
             className="hidden md:flex bg-[#2467b8] text-white items-center px-5 py-2.5 rounded-[14px] shadow-[0px_4px_6px_0px_rgba(0,0,0,0.1),0px_2px_4px_0px_rgba(0,0,0,0.1)] hover:opacity-90 transition-opacity cursor-pointer whitespace-nowrap"
-            style={{ fontFamily: "'Alexandria:Medium', sans-serif", fontWeight: 500, fontSize: 15 }}
+            style={{ fontFamily: "'Alexandria', sans-serif", fontWeight: 500, fontSize: 15 }}
           >
             Regístrate
           </button>
@@ -113,7 +113,7 @@ export function Navbar({
           {/* Mobile compact button */}
           <button
             className="md:hidden bg-[rgba(255,255,255,0.15)] border border-[rgba(255,255,255,0.4)] text-white px-3 py-2 rounded-[10px] cursor-pointer hover:bg-[rgba(255,255,255,0.25)] transition-colors"
-            style={{ fontFamily: "'Alexandria:Medium', sans-serif", fontSize: 12 }}
+            style={{ fontFamily: "'Alexandria', sans-serif", fontSize: 12 }}
           >
             Ingresar
           </button>
