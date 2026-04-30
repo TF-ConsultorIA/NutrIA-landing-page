@@ -4,6 +4,7 @@ import { useScrollSpy }        from '../hooks/useScrollSpy';
 import { Navbar }              from './NavbarSection';
 import { Hero }                from './HeroSection';
 import { AboutSection }        from './AboutSection';
+import { TestimonialsSection } from './TestimonialsSection';
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
@@ -30,6 +31,7 @@ export default function LandingPage() {
       />
       <Hero scrollTo={scrollTo} />
       <AboutSection />
+      <TestimonialsSection />
     </div>
   );
 }
