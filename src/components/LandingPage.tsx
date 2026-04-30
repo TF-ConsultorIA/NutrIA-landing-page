@@ -3,6 +3,7 @@ import { useCallback } from 'react';
 import { useScrollSpy }        from '../hooks/useScrollSpy';
 import { Navbar }              from './NavbarSection';
 import { Hero }                from './HeroSection';
+import { AboutSection }        from './AboutSection';
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
@@ -28,6 +29,7 @@ export default function LandingPage() {
         scrollTo={scrollTo}
       />
       <Hero scrollTo={scrollTo} />
+      <AboutSection />
     </div>
   );
 }
