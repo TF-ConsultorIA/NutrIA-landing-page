@@ -19,7 +19,7 @@ export function AboutSection() {
           <div className="bg-[#2d8b57] h-px w-12 shrink-0" />
           <span
             className="text-[#2d8b57] uppercase tracking-[3px] whitespace-nowrap"
-            style={{ fontFamily: "'Alexandria:SemiBold', sans-serif", fontWeight: 600, fontSize: 13 }}
+            style={{ fontFamily: "'Alexandria', sans-serif", fontWeight: 600, fontSize: 13 }}
           >
             Nuestra Historia
           </span>
@@ -31,7 +31,7 @@ export function AboutSection() {
           <div className="flex flex-col gap-7">
             <h2
               style={{
-                fontFamily: "'Alexandria:Bold', sans-serif",
+                fontFamily: "'Alexandria', sans-serif",
                 fontWeight: 700,
                 letterSpacing: '-1px',
                 lineHeight: 1.12,
@@ -45,10 +45,10 @@ export function AboutSection() {
 
             <p
               className="text-[#2d4a38]"
-              style={{ fontFamily: "'Alexandria:Regular', sans-serif", fontSize: 18, lineHeight: 1.8 }}
+              style={{ fontFamily: "'Alexandria', sans-serif", fontSize: 18, lineHeight: 1.8 }}
             >
               Nosotros somos{' '}
-              <strong style={{ fontFamily: "'Alexandria:Bold', sans-serif", color: '#1a2e23' }}>
+              <strong style={{ fontFamily: "'Alexandria', sans-serif", color: '#1a2e23' }}>
                 ConsultorIA
               </strong>
               , una startup fundada en 2026 por estudiantes de la Universidad Peruana de Ciencias
@@ -58,9 +58,9 @@ export function AboutSection() {
 
             <p
               className="text-[#2d4a38]"
-              style={{ fontFamily: "'Alexandria:Regular', sans-serif", fontSize: 18, lineHeight: 1.8 }}
+              style={{ fontFamily: "'Alexandria', sans-serif", fontSize: 18, lineHeight: 1.8 }}
             >
-              <strong style={{ fontFamily: "'Alexandria:Bold', sans-serif", color: '#1a2e23' }}>
+              <strong style={{ fontFamily: "'Alexandria', sans-serif", color: '#1a2e23' }}>
                 NutrIA
               </strong>{' '}
               es nuestra plataforma web interactiva, intuitiva y multiplataforma diseñada para brindar
@@ -75,7 +75,7 @@ export function AboutSection() {
                   <div
                     className="text-[#2d8b57]"
                     style={{
-                      fontFamily: "'Alexandria:Bold', sans-serif",
+                      fontFamily: "'Alexandria', sans-serif",
                       fontWeight: 700,
                       fontSize: 'clamp(24px, 3vw, 32px)',
                       lineHeight: 1,
@@ -85,7 +85,7 @@ export function AboutSection() {
                   </div>
                   <div
                     className="text-[#5a7a68] mt-1"
-                    style={{ fontFamily: "'Alexandria:Regular', sans-serif", fontSize: 13 }}
+                    style={{ fontFamily: "'Alexandria', sans-serif", fontSize: 13 }}
                   >
                     {label}
                   </div>
@@ -97,13 +97,13 @@ export function AboutSection() {
             <div className="flex flex-wrap items-center gap-4">
               <span
                 className="text-[#2d4a38]"
-                style={{ fontFamily: "'Alexandria:Regular', sans-serif", fontSize: 16 }}
+                style={{ fontFamily: "'Alexandria', sans-serif", fontSize: 16 }}
               >
                 ¿Deseas saber más sobre nosotros?
               </span>
               <button
                 className="bg-[#2467b8] text-white px-5 py-3 rounded-2xl shadow-[0px_10px_15px_0px_rgba(0,0,0,0.1),0px_4px_6px_0px_rgba(0,0,0,0.1)] hover:opacity-90 transition-opacity cursor-pointer shrink-0"
-                style={{ fontFamily: "'Alexandria:Medium', sans-serif", fontWeight: 500, fontSize: 16 }}
+                style={{ fontFamily: "'Alexandria', sans-serif", fontWeight: 500, fontSize: 16 }}
               >
                 Conócenos →
               </button>
@@ -128,13 +128,13 @@ export function AboutSection() {
               <div>
                 <p
                   className="text-[#1a2e23]"
-                  style={{ fontFamily: "'Alexandria:SemiBold', sans-serif", fontWeight: 600, fontSize: 13 }}
+                  style={{ fontFamily: "'Alexandria', sans-serif", fontWeight: 600, fontSize: 13 }}
                 >
                   Nutrición con IA
                 </p>
                 <p
                   className="text-[#5a7a68]"
-                  style={{ fontFamily: "'Alexandria:Regular', sans-serif", fontSize: 11 }}
+                  style={{ fontFamily: "'Alexandria', sans-serif", fontSize: 11 }}
                 >
                   Personalizada para ti
                 </p>
