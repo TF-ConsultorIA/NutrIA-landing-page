@@ -1,14 +1,8 @@
-import { useState } from 'react'
+import LandingPage from './components/LandingPage';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <h1>Estructura inicial</h1>
-    </>
-  )
+    return <LandingPage />
 }
 
 export default App
