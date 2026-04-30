@@ -54,7 +54,7 @@ export function Hero({ scrollTo }: HeroProps) {
           <p
             className="text-white"
             style={{
-              fontFamily: "'Alexandria:Bold', sans-serif",
+              fontFamily: "'Alexandria', sans-serif",
               fontWeight: 700,
               letterSpacing: '-2px',
               lineHeight: 1.08,
@@ -65,7 +65,7 @@ export function Hero({ scrollTo }: HeroProps) {
           </p>
           <p
             style={{
-              fontFamily: "'Alexandria:Bold', sans-serif",
+              fontFamily: "'Alexandria', sans-serif",
               fontWeight: 700,
               letterSpacing: '-2px',
               lineHeight: 1.08,

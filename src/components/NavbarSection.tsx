@@ -57,7 +57,7 @@ export function Navbar({
           </div>
           <span
             className="text-white"
-            style={{ fontFamily: "'Alexandria:Bold', sans-serif", fontWeight: 700, fontSize: 26, letterSpacing: '-0.5px' }}
+            style={{ fontFamily: "'Alexandria', sans-serif", fontWeight: 700, fontSize: 26, letterSpacing: '-0.5px' }}
           >
             NutrIA
           </span>
@@ -75,7 +75,7 @@ export function Navbar({
                   isActive ? 'opacity-100' : 'opacity-75 hover:opacity-100'
                 }`}
                 style={{
-                  fontFamily: isActive ? "'Alexandria:SemiBold', sans-serif" : "'Alexandria:Regular', sans-serif",
+                  fontFamily: isActive ? "'Alexandria', sans-serif" : "'Alexandria:Regular', sans-serif",
                   fontWeight: isActive ? 600 : 400,
                   fontSize: 15,
                 }}
@@ -150,7 +150,7 @@ export function Navbar({
                 style={{
                   color: 'white',
                   opacity: isActive ? 1 : 0.7,
-                  fontFamily: isActive ? "'Alexandria:SemiBold', sans-serif" : "'Alexandria:Regular', sans-serif",
+                  fontFamily: isActive ? "'Alexandria', sans-serif" : "'Alexandria', sans-serif",
                   fontWeight: isActive ? 600 : 400,
                   fontSize: 16,
                 }}
@@ -165,13 +165,13 @@ export function Navbar({
           <div className="flex gap-3 pt-4">
             <button
               className="flex-1 border border-[rgba(255,255,255,0.5)] text-white py-3 rounded-[14px] hover:bg-[rgba(255,255,255,0.1)] transition-colors cursor-pointer"
-              style={{ fontFamily: "'Alexandria:Medium', sans-serif", fontWeight: 500, fontSize: 15 }}
+              style={{ fontFamily: "'Alexandria', sans-serif", fontWeight: 500, fontSize: 15 }}
             >
               Iniciar Sesión
             </button>
             <button
               className="flex-1 bg-[#2467b8] text-white py-3 rounded-[14px] shadow-[0px_4px_6px_0px_rgba(0,0,0,0.1)] hover:opacity-90 transition-opacity cursor-pointer"
-              style={{ fontFamily: "'Alexandria:Medium', sans-serif", fontWeight: 500, fontSize: 15 }}
+              style={{ fontFamily: "'Alexandria', sans-serif", fontWeight: 500, fontSize: 15 }}
             >
               Regístrate
             </button>

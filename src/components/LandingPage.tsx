@@ -5,6 +5,7 @@ import { Navbar }              from './NavbarSection';
 import { Hero }                from './HeroSection';
 import { AboutSection }        from './AboutSection';
 import { TestimonialsSection } from './TestimonialsSection';
+import { PricingSection }      from './PricingSection';
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
@@ -32,6 +33,7 @@ export default function LandingPage() {
       <Hero scrollTo={scrollTo} />
       <AboutSection />
       <TestimonialsSection />
+      <PricingSection />
     </div>
   );
 }
