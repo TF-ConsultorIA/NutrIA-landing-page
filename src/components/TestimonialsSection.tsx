@@ -89,7 +89,7 @@ function TestimonialCard({ quote, name, role, avatar, borderColor, quoteColor }:
         <QuoteSVG color={quoteColor} />
         <p
           className="mt-4 text-[#2d4a38]"
-          style={{ fontFamily: "'Alexandria:Regular', sans-serif", fontSize: 15, lineHeight: 1.75 }}
+          style={{ fontFamily: "'Alexandria', sans-serif", fontSize: 15, lineHeight: 1.75 }}
         >
           {quote}
         </p>
@@ -104,13 +104,13 @@ function TestimonialCard({ quote, name, role, avatar, borderColor, quoteColor }:
         <div className="flex-1 min-w-0">
           <p
             className="text-[#1a2e23] truncate"
-            style={{ fontFamily: "'Alexandria:SemiBold', sans-serif", fontWeight: 600, fontSize: 15 }}
+            style={{ fontFamily: "'Alexandria', sans-serif", fontWeight: 600, fontSize: 15 }}
           >
             {name}
           </p>
           <p
             className="text-[#7a9a88] truncate"
-            style={{ fontFamily: "'Alexandria:Regular', sans-serif", fontSize: 13 }}
+            style={{ fontFamily: "'Alexandria', sans-serif", fontSize: 13 }}
           >
             {role}
           </p>
@@ -134,7 +134,7 @@ export function TestimonialsSection() {
             <div className="bg-[#62be68] h-px w-12 opacity-50" />
             <span
               className="text-[#83f0c1] uppercase tracking-[3px]"
-              style={{ fontFamily: "'Alexandria:SemiBold', sans-serif", fontWeight: 600, fontSize: 13 }}
+              style={{ fontFamily: "'Alexandria', sans-serif", fontWeight: 600, fontSize: 13 }}
             >
               Testimonios
             </span>
@@ -143,7 +143,7 @@ export function TestimonialsSection() {
           <h2
             className="text-white"
             style={{
-              fontFamily: "'Alexandria:Bold', sans-serif",
+              fontFamily: "'Alexandria', sans-serif",
               fontWeight: 700,
               letterSpacing: '-1px',
               lineHeight: 1.12,
@@ -154,7 +154,7 @@ export function TestimonialsSection() {
           </h2>
           <p
             className="text-[rgba(255,255,255,0.6)] mt-4 max-w-120 mx-auto"
-            style={{ fontFamily: "'Alexandria:Regular', sans-serif", fontSize: 18, lineHeight: 1.75 }}
+            style={{ fontFamily: "'Alexandria', sans-serif", fontSize: 18, lineHeight: 1.75 }}
           >
             Historias reales de personas que mejoraron su nutrición con NutrIA.
           </p>

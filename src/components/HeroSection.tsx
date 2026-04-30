@@ -43,7 +43,7 @@ export function Hero({ scrollTo }: HeroProps) {
           <div className="bg-[#62be68] rounded-full size-2 shrink-0" />
           <span
             className="text-[rgba(255,255,255,0.92)]"
-            style={{ fontFamily: "'Alexandria:Regular', sans-serif", fontSize: 14 }}
+            style={{ fontFamily: "'Alexandria', sans-serif", fontSize: 14 }}
           >
             Plataforma de nutrición con inteligencia artificial
           </span>
@@ -81,7 +81,7 @@ export function Hero({ scrollTo }: HeroProps) {
         <p
           className="text-[rgba(255,255,255,0.85)] max-w-[520px] mb-10"
           style={{
-            fontFamily: "'Alexandria:Regular', sans-serif",
+            fontFamily: "'Alexandria', sans-serif",
             fontSize: 'clamp(16px, 2vw, 20px)',
             lineHeight: 1.75,
           }}
@@ -95,7 +95,7 @@ export function Hero({ scrollTo }: HeroProps) {
           <button
             className="bg-[#2467b8] text-white px-8 py-4 rounded-[16px] shadow-[0px_20px_25px_0px_rgba(0,0,0,0.1),0px_8px_10px_0px_rgba(0,0,0,0.1)] hover:opacity-90 transition-opacity cursor-pointer"
             style={{
-              fontFamily: "'Alexandria:SemiBold', sans-serif",
+              fontFamily: "'Alexandria', sans-serif",
               fontWeight: 600,
               fontSize: 18,
               minWidth: 200,
@@ -106,7 +106,7 @@ export function Hero({ scrollTo }: HeroProps) {
           <button
             onClick={() => scrollTo('planes')}
             className="bg-[rgba(255,255,255,0.15)] border border-[rgba(255,255,255,0.3)] text-white px-8 py-4 rounded-[16px] hover:bg-[rgba(255,255,255,0.25)] transition-colors cursor-pointer"
-            style={{ fontFamily: "'Alexandria:Regular', sans-serif", fontSize: 18, minWidth: 160 }}
+            style={{ fontFamily: "'Alexandria', sans-serif", fontSize: 18, minWidth: 160 }}
           >
             Ver Planes
           </button>
