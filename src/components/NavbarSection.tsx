@@ -97,18 +97,18 @@ export function Navbar({
         {/* ── Right actions ── */}
         <div className="flex items-center gap-3">
           {/* Desktop buttons */}
-          <button
+          <a href="https://nutria-frontend.netlify.app/auth/login"
             className="hidden md:flex items-center px-5 py-2.5 rounded-[14px] border border-[rgba(255,255,255,0.55)] text-white hover:bg-[rgba(255,255,255,0.12)] transition-colors cursor-pointer whitespace-nowrap"
             style={{ fontFamily: "'Alexandria', sans-serif", fontWeight: 500, fontSize: 15 }}
           >
             Iniciar Sesión
-          </button>
-          <button
+          </a>
+          <a href="https://nutria-frontend.netlify.app/auth/register"
             className="hidden md:flex bg-[#2467b8] text-white items-center px-5 py-2.5 rounded-[14px] shadow-[0px_4px_6px_0px_rgba(0,0,0,0.1),0px_2px_4px_0px_rgba(0,0,0,0.1)] hover:opacity-90 transition-opacity cursor-pointer whitespace-nowrap"
             style={{ fontFamily: "'Alexandria', sans-serif", fontWeight: 500, fontSize: 15 }}
           >
             Regístrate
-          </button>
+          </a>
 
           {/* Mobile compact button */}
           <button
