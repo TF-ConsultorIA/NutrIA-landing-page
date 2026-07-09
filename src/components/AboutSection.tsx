@@ -1,4 +1,6 @@
 import robotImage from '../assets/robot.png';
+
+const PRODUCT_VIDEO_URL = 'https://www.youtube.com/embed/a5FeBzUU8DU?rel=0&modestbranding=1';
 // ─── Constants ────────────────────────────────────────────────────────────────
 
 const STATS = [
@@ -110,34 +112,64 @@ export function AboutSection() {
             </div>
           </div>
 
-          {/* ── Right: team image ── */}
-          <div className="relative mt-8 lg:mt-0">
-            {/* Decorative shadows */}
-            <div className="absolute inset-0 translate-x-4 translate-y-3 bg-[#2d8b57] opacity-30 rounded-3xl" />
-            <div className="absolute inset-0 translate-x-2 translate-y-1 bg-[#eaecf5] opacity-50 rounded-3xl" />
+          {/* ── Right: image + product video ── */}
+          <div className="mt-8 lg:mt-0 flex flex-col gap-6">
+            <div className="relative">
+              {/* Decorative shadows */}
+              <div className="absolute inset-0 translate-x-4 translate-y-3 bg-[#2d8b57] opacity-30 rounded-3xl" />
+              <div className="absolute inset-0 translate-x-2 translate-y-1 bg-[#eaecf5] opacity-50 rounded-3xl" />
 
-            <div className="relative rounded-3xl overflow-hidden shadow-[0px_25px_50px_-12px_rgba(0,0,0,0.25)] aspect-square">
-              <img src={robotImage} alt="Equipo NutrIA" className="w-full h-full object-cover" />
+              <div className="relative rounded-3xl overflow-hidden shadow-[0px_25px_50px_-12px_rgba(0,0,0,0.25)] aspect-[4/3]">
+                <img src={robotImage} alt="Equipo NutrIA" className="w-full h-full object-cover" />
+              </div>
+
+              {/* Floating badge */}
+              <div className="absolute bottom-6 -left-4 md:-left-8 bg-white flex items-center gap-3 px-4 py-3 rounded-2xl shadow-[0px_20px_25px_0px_rgba(0,0,0,0.1),0px_8px_10px_0px_rgba(0,0,0,0.1)]">
+                <div className="bg-[#e4ffdb] rounded-xl size-10 flex items-center justify-center text-xl shrink-0">
+                  🥗
+                </div>
+                <div>
+                  <p
+                    className="text-[#1a2e23]"
+                    style={{ fontFamily: "'Alexandria', sans-serif", fontWeight: 600, fontSize: 13 }}
+                  >
+                    Nutrición con IA
+                  </p>
+                  <p
+                    className="text-[#5a7a68]"
+                    style={{ fontFamily: "'Alexandria', sans-serif", fontSize: 11 }}
+                  >
+                    Personalizada para ti
+                  </p>
+                </div>
+              </div>
             </div>
 
-            {/* Floating badge */}
-            <div className="absolute bottom-6 -left-4 md:-left-8 bg-white flex items-center gap-3 px-4 py-3 rounded-2xl shadow-[0px_20px_25px_0px_rgba(0,0,0,0.1),0px_8px_10px_0px_rgba(0,0,0,0.1)]">
-              <div className="bg-[#e4ffdb] rounded-xl size-10 flex items-center justify-center text-xl shrink-0">
-                🥗
-              </div>
-              <div>
-                <p
+            <div className="bg-white rounded-3xl p-4 md:p-5 shadow-[0px_25px_50px_-12px_rgba(0,0,0,0.18)] border border-[rgba(45,139,87,0.12)]">
+              <div className="mb-4">
+                <h3
                   className="text-[#1a2e23]"
-                  style={{ fontFamily: "'Alexandria', sans-serif", fontWeight: 600, fontSize: 13 }}
+                  style={{ fontFamily: "'Alexandria', sans-serif", fontWeight: 700, fontSize: 20 }}
                 >
-                  Nutrición con IA
-                </p>
+                  Video descriptivo del producto
+                </h3>
                 <p
-                  className="text-[#5a7a68]"
-                  style={{ fontFamily: "'Alexandria', sans-serif", fontSize: 11 }}
+                  className="text-[#5a7a68] mt-1"
+                  style={{ fontFamily: "'Alexandria', sans-serif", fontSize: 14 }}
                 >
-                  Personalizada para ti
+                  Una vista rápida de cómo funciona NutrIA.
                 </p>
+              </div>
+
+              <div className="relative overflow-hidden rounded-2xl aspect-video bg-black">
+                <iframe
+                  src={PRODUCT_VIDEO_URL}
+                  title="Video descriptivo de NutrIA"
+                  className="absolute inset-0 w-full h-full"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
               </div>
             </div>
           </div>
