@@ -1,6 +1,6 @@
 import robotImage from '../assets/robot.png';
 
-const PRODUCT_VIDEO_URL = 'https://www.youtube.com/embed/a5FeBzUU8DU?rel=0&modestbranding=1';
+const PRODUCT_VIDEO_URL = 'https://www.youtube.com/embed/JYYHQyXyOJw?rel=0&modestbranding=1';
 // ─── Constants ────────────────────────────────────────────────────────────────
 
 const STATS = [
